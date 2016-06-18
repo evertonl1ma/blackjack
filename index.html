@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Blackjack  - The Game</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" href="https://github.com/evertonl1ma" content="Everton Lima"> 
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		 .header {
+		 	height: 20%;
+		 	width: 100%;
+		 	padding: 10px;
+		 	background: url(http://i1.wp.com/blog.stationcasinos.com/wp-content/uploads/Blackjack-Ace-and-Queen-of-Spades.jpg?resize=672%2C392) no-repeat center;
+		 	background-size: 100%;
+		 	
+		 }
+
+		 .player-actions {
+		 	background: black;
+		 }
+	</style>
+</head>
+<body>
+	<header class="header">
+	    <h1>Awesome <span>Blackjack Game</span></h1>
+
+	    <h2>Let's see if you're lucky...</h2>
+	</header>
+	<h2 id="message" class="message"></h2>
+
+	<ul id="cards-list" class="cards-list"></ul>
+
+	<div class="player-actions">
+    	<button id="get-card" class="btn">Get Card</button>
+    	<button id="play-again" class="btn btn-again">Play Again</button>
+    	<button id="stand" class="btn btn-stand">Stand</button>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

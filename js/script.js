@@ -97,7 +97,6 @@
 
 	Player.prototype.checkStatus = function() {
 		var self = this;
-		console.log(self);
 
 		playAgain.addEventListener('click', function() {
 			self.myCards = [];

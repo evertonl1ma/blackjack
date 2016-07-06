@@ -15,6 +15,7 @@ h2 {
 	text-shadow: 2px 2px 4px rgba(0,0,0, .7);
 }
 
+
 h1 {
 	font-size: 2.2em;
 	font-weight: 700;
@@ -28,6 +29,19 @@ h1 span {
 
 h2 {
 	font-weight: 100;
+}
+
+ .header {
+	height: 20%;
+	width: 100%;
+	padding: 10px;
+	background: url(../img/blackjack-Ace-and-Queen-of-Spades.jpg) no-repeat center;
+	background-size: 100%;
+		 	
+}
+
+.player-actions {
+	background: black;
 }
 
 .cards-list {
@@ -87,10 +101,8 @@ h2 {
 }
 
 .btn {
-	width: 120px;
-	height: 30px;
 	margin: 0 5px 0 0;
-
+	padding: 20px 10px;
 	cursor: pointer;
 	color: white;
 	background: maroon;
@@ -102,4 +114,42 @@ h2 {
 	display: none;
 	font-weight: 100;
 	color: yellow;
+}
+
+@media (max-width: 712px) {
+  .card {
+	width: 80px;
+	height: 120px;
+  }
+
+  .card__top-value {
+	font-size: 1.5em;
+}
+
+.card__bottom-value {
+	font-size: 1.5em;
+  }
+
+  .card__suit {
+	font-size: 2.5em;
+  }
+}
+
+@media (max-width: 539px) {
+	.card {
+	width: 60px;
+	height: 100px;
+  }
+
+  .card__top-value {
+	font-size: 1em;
+}
+
+.card__bottom-value {
+	font-size: 1em;
+ }
+
+ .card__suit {
+	font-size: 2em;
+ }
 }
